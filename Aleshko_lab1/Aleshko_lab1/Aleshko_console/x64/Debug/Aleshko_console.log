@@ -1,0 +1,5 @@
+﻿  Aleshko_console.cpp
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\Aleshko_console\Aleshko_console.cpp(107,48): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Session.cpp
+  Создание кода...
+  Aleshko_console.vcxproj -> C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\x64\Debug\Aleshko_console.exe

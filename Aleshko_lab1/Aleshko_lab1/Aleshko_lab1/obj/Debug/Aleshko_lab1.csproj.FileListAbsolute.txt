@@ -1,0 +1,13 @@
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\Aleshko_lab1\bin\Debug\Aleshko_lab1.exe.config
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\Aleshko_lab1\bin\Debug\Aleshko_lab1.exe
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\Aleshko_lab1\bin\Debug\Aleshko_lab1.pdb
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\Aleshko_lab1\obj\Debug\Aleshko_lab1.csproj.AssemblyReference.cache
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\Aleshko_lab1\obj\Debug\Aleshko_lab1.Form1.resources
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\Aleshko_lab1\obj\Debug\Aleshko_lab1.Properties.Resources.resources
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\Aleshko_lab1\obj\Debug\Aleshko_lab1.csproj.GenerateResource.cache
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\Aleshko_lab1\obj\Debug\Aleshko_lab1.csproj.CoreCompileInputs.cache
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\Aleshko_lab1\obj\Debug\Aleshko_lab1.exe
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\Aleshko_lab1\obj\Debug\Aleshko_lab1.pdb
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\x64\Debug\Aleshko_lab1.exe.config
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\x64\Debug\Aleshko_lab1.exe
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\x64\Debug\Aleshko_lab1.pdb
