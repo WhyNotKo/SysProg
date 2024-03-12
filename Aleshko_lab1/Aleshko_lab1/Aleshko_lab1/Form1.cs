@@ -39,12 +39,12 @@ namespace Aleshko_lab1
         {
             if (childProcess == null || childProcess.HasExited)
             {
+                threadsCounter = 1;
                 listBox1.Items.Clear();
                 childProcess = Process.Start("Aleshko_console.exe");
                 eventConfirm.WaitOne();
                 listBox1.Items.Add("Основной");
                 listBox1.Items.Add("Все потоки");
-                threadsCounter++;
 
             }
             else
@@ -65,6 +65,7 @@ namespace Aleshko_lab1
             if (childProcess == null || childProcess.HasExited)
             {
                 listBox1.Items.Clear();
+                threadsCounter = 0;
             }
             else
             {
