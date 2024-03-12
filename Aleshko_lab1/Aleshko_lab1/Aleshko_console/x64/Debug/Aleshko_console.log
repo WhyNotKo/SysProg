@@ -1,5 +1,2 @@
-﻿  Aleshko_console.cpp
-C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\Aleshko_console\Aleshko_console.cpp(107,48): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  Session.cpp
-  Создание кода...
-  Aleshko_console.vcxproj -> C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\x64\Debug\Aleshko_console.exe
+﻿  LINK : не найден или не выполнена сборка C:\Users\79277\Desktop\ucheba\6 семак\SysProg\Aleshko_lab1\Aleshko_lab1\x64\Debug\Aleshko_console.exe при последней инкрементной компоновке; выполняется полная компоновка
+  Aleshko_console.vcxproj -> C:\Users\79277\Desktop\ucheba\6 семак\SysProg\Aleshko_lab1\Aleshko_lab1\x64\Debug\Aleshko_console.exe
