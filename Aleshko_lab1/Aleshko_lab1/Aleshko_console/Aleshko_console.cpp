@@ -26,10 +26,10 @@ template <typename... Args> inline void SafeWrite(Args... args)
 	cs.Unlock();
 }
 
-DWORD WINAPI workFunc(LPVOID _param)
+DWORD WINAPI ThreadFunc(LPVOID _param)
 {
 	auto session = static_cast<Session*>(_param);
-	SafeWrite("session", session->sessionID, "created");
+	SafeWrite("session", session->sessionID, "creatd");
 	while (true)
 	{
 		Message m;
@@ -46,7 +46,7 @@ DWORD WINAPI workFunc(LPVOID _param)
 			case MT_DATA:
 			{
 				SafeWrite("session", session->sessionID, "data", m.data);
-				Sleep(100 * session->sessionID);
+				Sleep(1000 * session->sessionID);
 				break;
 			}
 			}
@@ -105,7 +105,7 @@ int main()
 		case WAIT_OBJECT_0 + 2:
 
 			sessions.push_back(new Session(hThreads.size()));
-			hThreads.push_back(::CreateThread(NULL, 0, workFunc, (LPVOID)sessions.back(), 0, NULL));
+			hThreads.push_back(::CreateThread(NULL, 0, ThreadFunc, (LPVOID)sessions.back(), 0, NULL));
 			break;
 
 		default:

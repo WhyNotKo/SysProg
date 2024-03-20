@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\79277\\Desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\SysProg\\Aleshko_lab1\\Aleshko_lab1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74AED898-C16C-495F-B4C1-85DD42AADB78}|Aleshko_console\\Aleshko_console.vcxproj|C:\\Users\\79277\\Desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\SysProg\\Aleshko_lab1\\Aleshko_lab1\\Aleshko_console\\Aleshko_console.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{74AED898-C16C-495F-B4C1-85DD42AADB78}|Aleshko_console\\Aleshko_console.vcxproj|solutionrelative:Aleshko_console\\Aleshko_console.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F03D6521-A540-4B76-BE38-18E880240FBE}|Aleshko_lab1\\Aleshko_lab1.csproj|c:\\users\\79277\\desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\sysprog\\aleshko_lab1\\aleshko_lab1\\aleshko_lab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F03D6521-A540-4B76-BE38-18E880240FBE}|Aleshko_lab1\\Aleshko_lab1.csproj|solutionrelative:aleshko_lab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F03D6521-A540-4B76-BE38-18E880240FBE}|Aleshko_lab1\\Aleshko_lab1.csproj|c:\\users\\79277\\desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\sysprog\\aleshko_lab1\\aleshko_lab1\\aleshko_lab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{74AED898-C16C-495F-B4C1-85DD42AADB78}|Aleshko_console\\Aleshko_console.vcxproj|C:\\Users\\79277\\Desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\SysProg\\Aleshko_lab1\\Aleshko_lab1\\Aleshko_console\\Aleshko_console.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74AED898-C16C-495F-B4C1-85DD42AADB78}|Aleshko_console\\Aleshko_console.vcxproj|solutionrelative:Aleshko_console\\Aleshko_console.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03D6521-A540-4B76-BE38-18E880240FBE}|Aleshko_lab1\\Aleshko_lab1.csproj|C:\\Users\\79277\\Desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\SysProg\\Aleshko_lab1\\Aleshko_lab1\\aleshko_lab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F03D6521-A540-4B76-BE38-18E880240FBE}|Aleshko_lab1\\Aleshko_lab1.csproj|solutionrelative:aleshko_lab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AED898-C16C-495F-B4C1-85DD42AADB78}|Aleshko_console\\Aleshko_console.vcxproj|C:\\Users\\79277\\Desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\SysProg\\Aleshko_lab1\\Aleshko_lab1\\Aleshko_console\\Session.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74AED898-C16C-495F-B4C1-85DD42AADB78}|Aleshko_console\\Aleshko_console.vcxproj|solutionrelative:Aleshko_console\\Session.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AED898-C16C-495F-B4C1-85DD42AADB78}|Aleshko_console\\Aleshko_console.vcxproj|C:\\Users\\79277\\Desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\SysProg\\Aleshko_lab1\\Aleshko_lab1\\Aleshko_console\\Session.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74AED898-C16C-495F-B4C1-85DD42AADB78}|Aleshko_console\\Aleshko_console.vcxproj|solutionrelative:Aleshko_console\\Session.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AED898-C16C-495F-B4C1-85DD42AADB78}|Aleshko_console\\Aleshko_console.vcxproj|C:\\Users\\79277\\Desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\SysProg\\Aleshko_lab1\\Aleshko_lab1\\Aleshko_console\\message.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74AED898-C16C-495F-B4C1-85DD42AADB78}|Aleshko_console\\Aleshko_console.vcxproj|solutionrelative:Aleshko_console\\message.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,30 +34,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Session.h",
+              "DocumentMoniker": "C:\\Users\\79277\\Desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\SysProg\\Aleshko_lab1\\Aleshko_lab1\\Aleshko_console\\Session.h",
+              "RelativeDocumentMoniker": "Aleshko_console\\Session.h",
+              "ToolTip": "C:\\Users\\79277\\Desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\SysProg\\Aleshko_lab1\\Aleshko_lab1\\Aleshko_console\\Session.h",
+              "RelativeToolTip": "Aleshko_console\\Session.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-12T09:34:55.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Session.cpp",
+              "DocumentMoniker": "C:\\Users\\79277\\Desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\SysProg\\Aleshko_lab1\\Aleshko_lab1\\Aleshko_console\\Session.cpp",
+              "RelativeDocumentMoniker": "Aleshko_console\\Session.cpp",
+              "ToolTip": "C:\\Users\\79277\\Desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\SysProg\\Aleshko_lab1\\Aleshko_lab1\\Aleshko_console\\Session.cpp",
+              "RelativeToolTip": "Aleshko_console\\Session.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-12T09:34:30.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "message.h",
+              "DocumentMoniker": "C:\\Users\\79277\\Desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\SysProg\\Aleshko_lab1\\Aleshko_lab1\\Aleshko_console\\message.h",
+              "RelativeDocumentMoniker": "Aleshko_console\\message.h",
+              "ToolTip": "C:\\Users\\79277\\Desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\SysProg\\Aleshko_lab1\\Aleshko_lab1\\Aleshko_console\\message.h",
+              "RelativeToolTip": "Aleshko_console\\message.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-12T08:29:27.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Aleshko_console.cpp",
               "DocumentMoniker": "C:\\Users\\79277\\Desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\SysProg\\Aleshko_lab1\\Aleshko_lab1\\Aleshko_console\\Aleshko_console.cpp",
               "RelativeDocumentMoniker": "Aleshko_console\\Aleshko_console.cpp",
               "ToolTip": "C:\\Users\\79277\\Desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\SysProg\\Aleshko_lab1\\Aleshko_lab1\\Aleshko_console\\Aleshko_console.cpp",
               "RelativeToolTip": "Aleshko_console\\Aleshko_console.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-11T11:05:52.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-11T11:05:52.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\79277\\Desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\SysProg\\Aleshko_lab1\\Aleshko_lab1\\Aleshko_lab1\\Form1.cs",
               "RelativeDocumentMoniker": "Aleshko_lab1\\Form1.cs",
               "ToolTip": "C:\\Users\\79277\\Desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\SysProg\\Aleshko_lab1\\Aleshko_lab1\\Aleshko_lab1\\Form1.cs",
               "RelativeToolTip": "Aleshko_lab1\\Form1.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAswCkAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACkAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-11T11:01:42.285Z",
               "EditorCaption": ""
@@ -59,8 +106,7 @@
               "ToolTip": "C:\\Users\\79277\\Desktop\\ucheba\\6 \u0441\u0435\u043C\u0430\u043A\\SysProg\\Aleshko_lab1\\Aleshko_lab1\\Aleshko_lab1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Aleshko_lab1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T10:59:34.087Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2024-03-11T10:59:34.087Z"
             }
           ]
         }
