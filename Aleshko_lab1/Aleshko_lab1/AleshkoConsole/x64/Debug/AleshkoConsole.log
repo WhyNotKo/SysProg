@@ -1,0 +1,19 @@
+﻿  pch.cpp
+  AleshkoConsole.cpp
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\AleshkoConsole\AleshkoConsole.cpp(3,1): warning C4005: _AFXDLL: изменение макроопределения
+  C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\AleshkoConsole\AleshkoConsole.cpp(3,1):
+  "_AFXDLL" ранее объявлен в командной строке
+  
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\AleshkoConsole\AleshkoConsole.cpp(3,1): warning C4603: _AFXDLL: макрос не определен или определение изменилось после использования предкомпилированного заголовка
+  (компиляция исходного файла "/AleshkoConsole.cpp")
+  C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\AleshkoConsole\AleshkoConsole.cpp(3,1):
+  Добавление макроопределения в предкомпилированный заголовок вместо определения его здесь
+  C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\AleshkoConsole\AleshkoConsole.cpp(5,1):
+  использование предварительно скомпилированного заголовка
+  
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\AleshkoConsole\AleshkoConsole.cpp(97,51): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/AleshkoConsole.cpp")
+  
+  Session.cpp
+  Создание кода...
+  AleshkoConsole.vcxproj -> C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\x64\Debug\AleshkoConsole.exe

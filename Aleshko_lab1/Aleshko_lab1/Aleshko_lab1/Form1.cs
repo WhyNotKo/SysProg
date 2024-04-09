@@ -5,6 +5,7 @@ using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -14,11 +15,26 @@ namespace Aleshko_lab1
 {
     public partial class Form1 : Form
     {
+        [DllImport("TransferDLL", CharSet = CharSet.Ansi)]
+        static extern bool startApp();
+
+
+        [DllImport("TransferDLL", CharSet = CharSet.Ansi)]
+        static extern void startThread();
+
+        [DllImport("TransferDLL", CharSet = CharSet.Ansi)]
+        static extern void stopThread();
+
+        [DllImport("TransferDLL", CharSet = CharSet.Ansi)]
+        static extern void stopAllThreads();
+
+        [DllImport("TransferDLL", CharSet = CharSet.Ansi)]
+        static extern void sendMessage(int addr, StringBuilder sb);
         Process childProcess = null;
-        EventWaitHandle eventStart = new EventWaitHandle(false, EventResetMode.AutoReset, "StartEvent");
+/*        EventWaitHandle eventStart = new EventWaitHandle(false, EventResetMode.AutoReset, "StartEvent");
         EventWaitHandle eventConfirm = new EventWaitHandle(false, EventResetMode.AutoReset, "ConfirmEvent");
         EventWaitHandle eventClose = new EventWaitHandle(false, EventResetMode.AutoReset, "CloseProc");
-        EventWaitHandle eventExit = new EventWaitHandle(false, EventResetMode.AutoReset, "ExitProc");
+        EventWaitHandle eventExit = new EventWaitHandle(false, EventResetMode.AutoReset, "ExitProc");*/
         public Form1()
         {
             InitializeComponent();
@@ -37,12 +53,13 @@ namespace Aleshko_lab1
 
         private void btn_start_Click(object sender, EventArgs e)
         {
+            
             if (childProcess == null || childProcess.HasExited)
             {
                 threadsCounter = 1;
                 listBox1.Items.Clear();
-                childProcess = Process.Start("Aleshko_console.exe");
-                eventConfirm.WaitOne();
+                childProcess = Process.Start("AleshkoConsole.exe");
+
                 listBox1.Items.Add("Основной");
                 listBox1.Items.Add("Все потоки");
 
@@ -53,8 +70,9 @@ namespace Aleshko_lab1
 
                 for (int i = 0; i < n; ++i)
                 {
-                    eventStart.Set();
-                    eventConfirm.WaitOne();
+                    startThread();
+                    /*eventStart.Set();
+                    eventConfirm.WaitOne();*/
                     listBox1.Items.Add(threadsCounter++).ToString();
                 }
             }
@@ -65,46 +83,48 @@ namespace Aleshko_lab1
             if (childProcess == null || childProcess.HasExited)
             {
                 listBox1.Items.Clear();
-                threadsCounter = 0;
             }
             else
             {
-                if (listBox1.Items.Count > 2)
+
+                stopThread();
+
+                if (listBox1.Items.Count > 3)
                 {
-                    int n = Convert.ToInt32(numericUpDown1.Value);
-                    if(n < threadsCounter)
-                    {
-                        for (int i = 0; i < n; ++i)
-                        {
-                            eventClose.Set();
-                            eventConfirm.WaitOne();
-                            listBox1.Items.RemoveAt(threadsCounter);
-                            threadsCounter--;
-                        }
-                    }
-                    else
-                    {
-                        eventClose.Set();
-                        eventConfirm.WaitOne();
-                        listBox1.Items.RemoveAt(threadsCounter);
-                        threadsCounter--;
-                    }
-                    
+                    listBox1.Items.RemoveAt(listBox1.Items.Count - 2);
+                }
+                else if (listBox1.Items.Count == 3)
+                {
+                    listBox1.Items.RemoveAt(listBox1.Items.Count - 1);
+                    listBox1.Items.RemoveAt(listBox1.Items.Count - 1);
                 }
                 else
                 {
-                    eventClose.Set();
-                    eventConfirm.WaitOne();
                     listBox1.Items.Clear();
-                    threadsCounter = 0;
                 }
-                
+
             }
         }
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_send_Click(object sender, EventArgs e)
+        {
+            int index = listBox1.SelectedIndex;
+            string message = listBox1.Text;
+
+
+            if (index == listBox1.Items.Count - 1)
+            {
+                sendMessage(-1, new StringBuilder(message));
+            }
+            else
+            {
+                sendMessage(index, new StringBuilder(message));
+            }
         }
     }
 }
