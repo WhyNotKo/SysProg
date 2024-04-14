@@ -30,6 +30,7 @@ namespace Aleshko_lab1
 
         [DllImport("TransferDLL", CharSet = CharSet.Ansi)]
         static extern void sendMessage(int addr, StringBuilder sb);
+
         Process childProcess = null;
 /*        EventWaitHandle eventStart = new EventWaitHandle(false, EventResetMode.AutoReset, "StartEvent");
         EventWaitHandle eventConfirm = new EventWaitHandle(false, EventResetMode.AutoReset, "ConfirmEvent");
@@ -56,25 +57,24 @@ namespace Aleshko_lab1
             
             if (childProcess == null || childProcess.HasExited)
             {
-                threadsCounter = 1;
+                threadsCounter = 2;
                 listBox1.Items.Clear();
-                childProcess = Process.Start("AleshkoConsole.exe");
+                childProcess = Process.Start("AleshkoConsoleApp.exe");
 
                 listBox1.Items.Add("Основной");
-                listBox1.Items.Add("Все потоки");
 
             }
             else
             {
                 int n = Convert.ToInt32(numericUpDown1.Value);
-
+                if(listBox1.Items.Count != 1)
+                    listBox1.Items.RemoveAt(listBox1.Items.Count - 1);
                 for (int i = 0; i < n; ++i)
                 {
                     startThread();
-                    /*eventStart.Set();
-                    eventConfirm.WaitOne();*/
                     listBox1.Items.Add(threadsCounter++).ToString();
                 }
+                listBox1.Items.Add("Все потоки");
             }
         }
 
@@ -114,7 +114,7 @@ namespace Aleshko_lab1
         private void btn_send_Click(object sender, EventArgs e)
         {
             int index = listBox1.SelectedIndex;
-            string message = listBox1.Text;
+            string message = textBox.Text;
 
 
             if (index == listBox1.Items.Count - 1)
@@ -125,6 +125,11 @@ namespace Aleshko_lab1
             {
                 sendMessage(index, new StringBuilder(message));
             }
+        }
+
+        private void textBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

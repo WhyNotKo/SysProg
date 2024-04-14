@@ -13,6 +13,7 @@
         /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
         protected override void Dispose(bool disposing)
         {
+            stopAllThreads();
             if (disposing && (components != null))
             {
                 components.Dispose();
@@ -72,6 +73,11 @@
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(75, 20);
             this.numericUpDown1.TabIndex = 3;
+            this.numericUpDown1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // btn_send
@@ -91,6 +97,7 @@
             this.textBox.Name = "textBox";
             this.textBox.Size = new System.Drawing.Size(109, 147);
             this.textBox.TabIndex = 5;
+            this.textBox.TextChanged += new System.EventHandler(this.textBox_TextChanged);
             // 
             // Form1
             // 

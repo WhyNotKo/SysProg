@@ -82,8 +82,6 @@ HANDLE exitEvent = ::CreateEvent(NULL, FALSE, FALSE, "ExitProc");
 
 
 
-
-
 extern "C"	__declspec(dllexport) void startThread()
 {
 	AFX_MANAGE_STATE(AfxGetStaticModuleState());
@@ -108,8 +106,6 @@ extern "C" __declspec(dllexport) void stopAllThreads()
 }
 
 
-
-
 extern "C" __declspec(dllexport) void sendMessage(int addr, const char* str)
 {
 
@@ -129,18 +125,18 @@ extern "C" __declspec(dllexport) void sendMessage(int addr, const char* str)
 
 	::SetEvent(sendEvent);
 	::WaitForSingleObject(confirmEvent, INFINITE);
-	CloseHandle(hFileMap);
+	//CloseHandle(hFileMap);
 }
 
- __declspec(dllexport) std::string getMessage(header& h)
+__declspec(dllexport) std::string getMessage(header& h)
 {
-	WaitForSingleObject(g_mutex, INFINITE);
+	::WaitForSingleObject(g_mutex, INFINITE);
 
 	HANDLE hFileMap = CreateFileMapping(INVALID_HANDLE_VALUE, NULL, PAGE_READWRITE, 0, sizeof(header), "MyMap");
 	LPVOID buff = MapViewOfFile(hFileMap, FILE_MAP_ALL_ACCESS, 0, 0, sizeof(header));
 	h = *((header*)buff);
 	UnmapViewOfFile(buff);
-	CloseHandle(hFileMap);
+	//CloseHandle(hFileMap);
 
 	int n = h.size + sizeof(header);
 	hFileMap = CreateFileMapping(INVALID_HANDLE_VALUE, NULL, PAGE_READWRITE, 0, n, "MyMap");
@@ -148,8 +144,11 @@ extern "C" __declspec(dllexport) void sendMessage(int addr, const char* str)
 
 	std::string s((char*)buff + sizeof(header), h.size);
 
-	ReleaseMutex(g_mutex);
 
-	UnmapViewOfFile(buff);
+	//CloseHandle(hFileMap);
+	UnmapViewOfFile(buff); 
+
+	//CloseHandle(hFileMap);
+	ReleaseMutex(g_mutex);
 	return s;
 }

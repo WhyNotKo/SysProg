@@ -1,9 +1,9 @@
 ﻿  pch.cpp
   TransferDll.cpp
-C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\TransferDll\TransferDll.cpp(118,33): warning C4838: Преобразование из "size_t" в "int" требует сужающего преобразования.
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\TransferDll\TransferDll.cpp(114,33): warning C4838: Преобразование из "size_t" в "int" требует сужающего преобразования.
   (компиляция исходного файла "/TransferDll.cpp")
   
-C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\TransferDll\TransferDll.cpp(118,33): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\TransferDll\TransferDll.cpp(114,33): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
   (компиляция исходного файла "/TransferDll.cpp")
   
      Создается библиотека C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\x64\Debug\TransferDll.lib и объект C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\x64\Debug\TransferDll.exp
