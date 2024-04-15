@@ -55,6 +55,7 @@ DWORD WINAPI ThreadFunc(LPVOID _param)
 			case MT_DATA:
 			{
 				SafeWrite("session", session->sessionID, "data", m.data);
+				Sleep(100);
 				break;
 			}
 			}

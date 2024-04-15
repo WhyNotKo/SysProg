@@ -1,10 +1,16 @@
-﻿  pch.cpp
-  TransferDll.cpp
-C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\TransferDll\TransferDll.cpp(114,33): warning C4838: Преобразование из "size_t" в "int" требует сужающего преобразования.
+﻿  TransferDll.cpp
+C:\Users\79277\Desktop\ucheba\6 семак\SysProg\Aleshko_lab1\Aleshko_lab1\TransferDll\TransferDll.cpp(114,27): warning C4838: Преобразование из "size_t" в "int" требует сужающего преобразования.
   (компиляция исходного файла "/TransferDll.cpp")
   
-C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\TransferDll\TransferDll.cpp(114,33): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\79277\Desktop\ucheba\6 семак\SysProg\Aleshko_lab1\Aleshko_lab1\TransferDll\TransferDll.cpp(114,27): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
   (компиляция исходного файла "/TransferDll.cpp")
   
-     Создается библиотека C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\x64\Debug\TransferDll.lib и объект C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\x64\Debug\TransferDll.exp
-  TransferDll.vcxproj -> C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\x64\Debug\TransferDll.dll
+C:\Users\79277\Desktop\ucheba\6 семак\SysProg\Aleshko_lab1\Aleshko_lab1\TransferDll\TransferDll.cpp(118,2): error C2664: "void *memcpy(void *,const void *,size_t)": невозможно преобразовать аргумент 2 из "header" в "const void *"
+  (компиляция исходного файла "/TransferDll.cpp")
+  C:\Users\79277\Desktop\ucheba\6 семак\SysProg\Aleshko_lab1\Aleshko_lab1\TransferDll\TransferDll.cpp(118,15):
+  Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_string.h(43,15):
+   см. объявление "memcpy"
+  C:\Users\79277\Desktop\ucheba\6 семак\SysProg\Aleshko_lab1\Aleshko_lab1\TransferDll\TransferDll.cpp(118,2):
+  при попытке сопоставить список аргументов "(char *, header, size_t)"
+  
