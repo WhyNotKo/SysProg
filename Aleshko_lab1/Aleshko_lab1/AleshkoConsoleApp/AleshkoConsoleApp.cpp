@@ -129,12 +129,12 @@ void start()
 
 			if (h.addr == -1)
 			{
-				SafeWrite("Main received data: ", message);
+				SafeWrite("Main thread data: ", message);
 				std::for_each(sessions.begin(), sessions.end(), [&message](Session* s) {s->addMessage(MT_DATA, message); });
 			}
 			else if (h.addr == 0)
 			{
-				SafeWrite("Main received data: ", message);
+				SafeWrite("Main thread data: ", message);
 			}
 			else
 				sessions[h.addr-1]->addMessage(MT_DATA, message);
