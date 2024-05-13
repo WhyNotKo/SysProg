@@ -90,13 +90,7 @@ namespace systemProgLab1
             }
             else
             {          
-                int n = 0;
-                try
-                {
-                    n = Convert.ToInt32(numericUpDown1.Value); 
-                }
-                catch 
-                { }
+                int n = Convert.ToInt32(numericUpDown1.Value);
 
                 for (int i = 0; i < n; ++i)
                 {            
