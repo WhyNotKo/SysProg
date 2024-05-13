@@ -111,7 +111,7 @@ extern "C" __declspec(dllexport) void sendMessage(int addr, const char* str)
 
 	::WaitForSingleObject(g_mutex, INFINITE);
 
-	header h = { addr, strlen(str) + 1 };
+	header h = { addr, strlen(str) };
 	HANDLE hFileMap = CreateFileMapping(INVALID_HANDLE_VALUE, NULL, PAGE_READWRITE, 0, h.size + sizeof(header), "MyMap");
 	char* buff = (char*)MapViewOfFile(hFileMap, FILE_MAP_ALL_ACCESS, 0, 0, h.size + sizeof(header));
 

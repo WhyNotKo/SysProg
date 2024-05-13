@@ -1,12 +1,12 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр сборки добавит косую черту, поскольку она необходима для правильного определения каталога Output.
   AleshkoConsoleApp.cpp
-C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\AleshkoConsoleApp\AleshkoConsoleApp.cpp(3,1): warning C4005: _AFXDLL: изменение макроопределения
-  C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\AleshkoConsoleApp\AleshkoConsoleApp.cpp(3,1):
+C:\Users\79277\Desktop\ucheba\6 семак\SysProg\Aleshko_lab1\Aleshko_lab1\AleshkoConsoleApp\AleshkoConsoleApp.cpp(3,1): warning C4005: _AFXDLL: изменение макроопределения
+  C:\Users\79277\Desktop\ucheba\6 семак\SysProg\Aleshko_lab1\Aleshko_lab1\AleshkoConsoleApp\AleshkoConsoleApp.cpp(3,1):
   "_AFXDLL" ранее объявлен в командной строке
   
   _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
-C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\AleshkoConsoleApp\AleshkoConsoleApp.cpp(94,51): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\79277\Desktop\ucheba\6 семак\SysProg\Aleshko_lab1\Aleshko_lab1\AleshkoConsoleApp\AleshkoConsoleApp.cpp(95,51): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
   Session.cpp
   _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
   Создание кода...
-  AleshkoConsoleApp.vcxproj -> C:\Users\aerty\OneDrive\Desktop\reps\SysProg\Aleshko_lab1\Aleshko_lab1\x64\Debug\AleshkoConsoleApp.exe
+  AleshkoConsoleApp.vcxproj -> C:\Users\79277\Desktop\ucheba\6 семак\SysProg\Aleshko_lab1\Aleshko_lab1\x64\Debug\AleshkoConsoleApp.exe

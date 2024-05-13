@@ -1,0 +1,10 @@
+C:\Users\aerty\OneDrive\Desktop\systemProgLabs-master\bin\systemProgLab1.exe.config
+C:\Users\aerty\OneDrive\Desktop\systemProgLabs-master\bin\systemProgLab1.exe
+C:\Users\aerty\OneDrive\Desktop\systemProgLabs-master\bin\systemProgLab1.pdb
+C:\Users\aerty\OneDrive\Desktop\systemProgLabs-master\systemProgLab1\obj\Debug\systemProgLab1.csproj.AssemblyReference.cache
+C:\Users\aerty\OneDrive\Desktop\systemProgLabs-master\systemProgLab1\obj\Debug\systemProgLab1.Form1.resources
+C:\Users\aerty\OneDrive\Desktop\systemProgLabs-master\systemProgLab1\obj\Debug\systemProgLab1.Properties.Resources.resources
+C:\Users\aerty\OneDrive\Desktop\systemProgLabs-master\systemProgLab1\obj\Debug\systemProgLab1.csproj.GenerateResource.cache
+C:\Users\aerty\OneDrive\Desktop\systemProgLabs-master\systemProgLab1\obj\Debug\systemProgLab1.csproj.CoreCompileInputs.cache
+C:\Users\aerty\OneDrive\Desktop\systemProgLabs-master\systemProgLab1\obj\Debug\systemProgLab1.exe
+C:\Users\aerty\OneDrive\Desktop\systemProgLabs-master\systemProgLab1\obj\Debug\systemProgLab1.pdb

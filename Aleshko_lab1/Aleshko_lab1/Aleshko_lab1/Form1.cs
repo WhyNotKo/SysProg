@@ -32,10 +32,6 @@ namespace Aleshko_lab1
         static extern void sendMessage(int addr, StringBuilder sb);
 
         Process childProcess = null;
-/*        EventWaitHandle eventStart = new EventWaitHandle(false, EventResetMode.AutoReset, "StartEvent");
-        EventWaitHandle eventConfirm = new EventWaitHandle(false, EventResetMode.AutoReset, "ConfirmEvent");
-        EventWaitHandle eventClose = new EventWaitHandle(false, EventResetMode.AutoReset, "CloseProc");
-        EventWaitHandle eventExit = new EventWaitHandle(false, EventResetMode.AutoReset, "ExitProc");*/
         public Form1()
         {
             InitializeComponent();
