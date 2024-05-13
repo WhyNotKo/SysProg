@@ -88,6 +88,7 @@ extern "C" __declspec(dllexport) int Connect(int port = 12345)
 	return 1;
 }
 
+
 int messageDataToBuffer(Message& response ,char* buffer)
 {
 	if (response.header.size > 1)

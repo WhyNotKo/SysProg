@@ -1,4 +1,6 @@
-﻿namespace systemProgLab1
+﻿using System.Runtime.InteropServices;
+
+namespace systemProgLab1
 {
     partial class Form1
     {
@@ -11,6 +13,7 @@
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -168,7 +171,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(667, 245);
+            this.ClientSize = new System.Drawing.Size(549, 245);
             this.Controls.Add(this.ThreadsList);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.responseList);

@@ -29,6 +29,9 @@ namespace systemProgLab1
         static extern int Connect(int port);
 
         [DllImport("TransportDLL", CharSet = CharSet.Ansi)]
+        static extern int Disconnect(int port);
+
+        [DllImport("TransportDLL", CharSet = CharSet.Ansi)]
         static extern int sendMessageTo(int addr, StringBuilder data, StringBuilder responseMessage);
 
         [DllImport("TransportDLL", CharSet = CharSet.Ansi)]
@@ -90,7 +93,7 @@ namespace systemProgLab1
             }
             else
             {          
-                int n = Convert.ToInt32(numericUpDown1.Value);
+                int n = Convert.ToInt32(numericUpDown1.Value); 
 
                 for (int i = 0; i < n; ++i)
                 {            
@@ -104,6 +107,8 @@ namespace systemProgLab1
 
         private void stopButton_Click(object sender, EventArgs e)
         {
+            if (this.ThreadsList.SelectedItems.Count == 0)
+                return;
             if (Int32.TryParse(ThreadsList.SelectedItem.ToString(), out int id))
             {
                 updateResponseField(stopThread(id, responseBuilder));
@@ -116,6 +121,8 @@ namespace systemProgLab1
         private void buttonSend_Click(object sender, EventArgs e)
         {
             string message = messageBox.Text;
+            if (message == "")
+                return;
             if (!Int32.TryParse(ThreadsList.SelectedItem.ToString(), out int id))
             {
                 id = -1;

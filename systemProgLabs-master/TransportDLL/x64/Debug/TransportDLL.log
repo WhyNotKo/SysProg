@@ -10,10 +10,10 @@ C:\Users\aerty\OneDrive\Desktop\reps\SysProg\systemProgLabs-master\TransportDLL\
 C:\Users\aerty\OneDrive\Desktop\reps\SysProg\systemProgLabs-master\TransportDLL\TransportDLL.cpp(71,8): warning C4081: требуется "идентификатор"; обнаружен "("
   (компиляция исходного файла "/TransportDLL.cpp")
   
-C:\Users\aerty\OneDrive\Desktop\reps\SysProg\systemProgLabs-master\TransportDLL\TransportDLL.cpp(96,28): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\systemProgLabs-master\TransportDLL\TransportDLL.cpp(97,28): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
   (компиляция исходного файла "/TransportDLL.cpp")
   
-C:\Users\aerty\OneDrive\Desktop\reps\SysProg\systemProgLabs-master\TransportDLL\TransportDLL.cpp(142,31): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\aerty\OneDrive\Desktop\reps\SysProg\systemProgLabs-master\TransportDLL\TransportDLL.cpp(143,31): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
   (компиляция исходного файла "/TransportDLL.cpp")
   
      Создается библиотека ..\bin\TransportDLL.lib и объект ..\bin\TransportDLL.exp

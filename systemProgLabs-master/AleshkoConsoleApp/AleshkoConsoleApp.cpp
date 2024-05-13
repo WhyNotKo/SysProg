@@ -80,7 +80,7 @@ void ProcessClient(SOCKET hSock)
 			thread t(workFunc, sessions.back());
 			
 			t.detach();
-			sendMessage(socket, Message(MT_DATA, threadCounter, "Ok"));
+			sendMessage(socket, Message(MT_DATA, threadCounter, "ok"));
 		}
 		else if (mes.header.messageType == MT_GET)
 		{
@@ -113,7 +113,7 @@ void ProcessClient(SOCKET hSock)
 			if (stop_candidate)
 			{
 				sessions.remove(stop_candidate);
-				sendMessage(socket, Message(MT_DATA, mes.header.addr, "Ok"));
+				sendMessage(socket, Message(MT_DATA, mes.header.addr, "ok"));
 			}
 			else
 			{
@@ -139,7 +139,7 @@ void ProcessClient(SOCKET hSock)
 				}
 					});
 			if (foundRecipient)
-				sendMessage(socket, Message(MT_DATA, mes.header.addr, "Ok"));
+				sendMessage(socket, Message(MT_DATA, mes.header.addr, "ok"));
 			else
 				sendMessage(socket, Message(MT_DATA, -1, "Thread not found"));
 		}
@@ -169,7 +169,7 @@ void Server()
 			break;
 		CSocket s;
 		Server.Accept(s);
-		SafeWrite("Request Accepted ");
+		SafeWrite("Successful connection");
 		thread t(ProcessClient, s.Detach());
 		t.detach();
 	}
