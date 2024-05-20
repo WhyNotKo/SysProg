@@ -95,7 +95,7 @@ extern "C" __declspec(dllexport) void Disconnect()
 
 int messageDataToBuffer(Message& response ,char* buffer)
 {
-	if (response.header.size > 1)
+	if (response.header.size >= 1)
 	{
 		memcpy_s(buffer, response.header.size, response.data.c_str(), response.header.size);
 		return response.header.size;
@@ -117,7 +117,7 @@ extern "C" __declspec(dllexport) int ProcessMessages(int maxBufferLength, int& m
 	}
 	case MT_CLIENTS_LIST:
 	{
-		if (mes.header.size >= 1)
+		if (mes.header.size > 1)
 		{
 			mes_code = MT_CLIENTS_LIST;
 			memcpy_s(buffer, maxBufferLength, mes.data.c_str(), mes.data.size()-1);
